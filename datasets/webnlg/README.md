@@ -1,1 +1,1 @@
-Please download [WebNLG](https://github.com/gzmason/Relation-Extraction-Dataset-Finetuning/blob/main/OpenNRE/benchmark/download_fewrel.sh) here.
+Please download [WebNLG](https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/release_v3.0) here.
