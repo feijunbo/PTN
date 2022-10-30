@@ -3,3 +3,7 @@ datasets/webnlg/dev.txt
 datasets/webnlg/test.txt
 datasets/nyt10/nyt10m/*
 datasets/nyt10/test.txt
+datasets/fewrel/dev.txt
+datasets/fewrel/fewrel_train.txt
+datasets/fewrel/train.txt
+datasets/fewrel/fewrel_val.txt
