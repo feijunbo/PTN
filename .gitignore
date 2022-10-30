@@ -1,9 +1,8 @@
 datasets/webnlg/release_v3.0/*
-datasets/webnlg/dev.txt
-datasets/webnlg/test.txt
+datasets/webnlg/*.txt
 datasets/nyt10/nyt10m/*
-datasets/nyt10/test.txt
-datasets/fewrel/dev.txt
-datasets/fewrel/fewrel_train.txt
-datasets/fewrel/train.txt
-datasets/fewrel/fewrel_val.txt
+datasets/nyt10/*.txt
+datasets/fewrel/*.txt
+datasets/fewrel/*.json
+datasets/fewrel_star/*.txt
+datasets/fewrel_star/*.json

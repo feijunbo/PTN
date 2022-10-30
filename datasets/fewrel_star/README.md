@@ -1,1 +1,1 @@
-Please download [FewRel](https://github.com/gzmason/Relation-Extraction-Dataset-Finetuning/blob/main/OpenNRE/benchmark/download_fewrel.sh) here and run the python script.
+Please download [FewRel](https://github.com/thunlp/FewRel/tree/master/data) here and run the python script.
