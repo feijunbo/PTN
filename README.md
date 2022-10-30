@@ -8,7 +8,7 @@ This is the official implementation of the [CIKM 2022](https://www.cikm2022.org/
 # Datasets
 - **FewRel**
 - **FewRel***
-- **NYT**
+- **[NYT](datasets/nyt10/README.md)**
 - **WebNLG**
 
 # Citation
