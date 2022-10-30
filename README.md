@@ -8,8 +8,7 @@ This is the official implementation of the [CIKM 2022](https://www.cikm2022.org/
 
 # Datasets
 - <u>**[FewRel](datasets/fewrel/)**</u>: We follow the original division of FewRel for
-evaluating few-shot RTE, where the validation set of FewRel is
-considered as the testing set, and the testing set of NYT10 is used as the validation set.
+evaluating few-shot RTE, where the validation set of FewRel is considered as the testing set, and the testing set of **NYT10** is used as the validation set.
 - <u>**[FewRel*](datasets/fewrel_star/)**</u>: We use it for few-shot RTE by randomly choosing 50 relations as the training set, 15 relations as the validation set, and 15 relations as the testing
 set.
 - <u>**[NYT10](datasets/nyt10/)**</u>: We filter sentences that contain only one relation, forming a dataset of 16 relations. Since this dataset contains few relations, we use the entire dataset as the testing set.
