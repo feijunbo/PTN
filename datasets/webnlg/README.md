@@ -1,1 +1,1 @@
-Please download <u>[WebNLG](https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/release_v3.0)</u> here and run the python script, then copy the `train.txt` from <u>[fewrel]](../fewrel/)</u> to here.
+Please download <u>[WebNLG](https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/release_v3.0)</u> here and run the python script, then copy the `train.txt` from <u>[fewrel](../fewrel/)</u> to here.
