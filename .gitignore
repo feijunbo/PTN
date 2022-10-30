@@ -1,0 +1,3 @@
+datasets/webnlg/release_v3.0/*
+datasets/webnlg/dev.txt
+datasets/webnlg/test.txt
