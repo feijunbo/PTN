@@ -6,10 +6,10 @@ This is the official implementation of the [CIKM 2022](https://www.cikm2022.org/
 - 29/10/2022: We have initialized the repository and will gradually release the contents.
 
 # Datasets
-- **FewRel**
-- **FewRel***
-- **[NYT](datasets/nyt10/README.md)**
-- **WebNLG**
+- **[FewRel](datasets/fewrel/)**
+- **[FewRel*](datasets/fewrel_star/)**
+- **[NYT](datasets/nyt10/)**
+- **[WebNLG](datasets/webnlg/)**
 
 # Citation
 If you use TPN in your work, please cite our paper:
