@@ -1,3 +1,5 @@
 datasets/webnlg/release_v3.0/*
 datasets/webnlg/dev.txt
 datasets/webnlg/test.txt
+datasets/nyt10/nyt10m/*
+datasets/nyt10/test.txt

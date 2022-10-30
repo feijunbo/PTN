@@ -1,1 +1,1 @@
-Please download [WebNLG](https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/release_v3.0) here.
+Please download [WebNLG](https://gitlab.com/shimorina/webnlg-dataset/-/tree/master/release_v3.0) here and run the python script.
