@@ -5,6 +5,12 @@ This is the official implementation of the [CIKM 2022](https://www.cikm2022.org/
 # Updates
 - 29/10/2022: We have initialized the repository and will gradually release the contents.
 
+# Datasets
+- **FewRel**
+- **FewRel***
+- **NYT**
+- **WebNLG**
+
 # Citation
 If you use TPN in your work, please cite our paper:
 ```bibtex
