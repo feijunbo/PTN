@@ -3,13 +3,14 @@
 This is the official implementation of the [CIKM 2022](https://www.cikm2022.org/) paper: [Few-Shot Relational Triple Extraction with Perspective Transfer Network](https://dl.acm.org/doi/10.1145/3511808.3557323).
 
 # Updates
+- 30/10/2022: We have released the datasets used in the paper.
 - 29/10/2022: We have initialized the repository and will gradually release the contents.
 
 # Datasets
-- **[FewRel](datasets/fewrel/)**
-- **[FewRel*](datasets/fewrel_star/)**
-- **[NYT](datasets/nyt10/)**
-- **[WebNLG](datasets/webnlg/)**
+- <u>**[FewRel](datasets/fewrel/)**</u>
+- <u>**[FewRel*](datasets/fewrel_star/)**</u>
+- <u>**[NYT](datasets/nyt10/)**</u>
+- <u>**[WebNLG](datasets/webnlg/)**</u>
 
 # Citation
 If you use TPN in your work, please cite our paper:

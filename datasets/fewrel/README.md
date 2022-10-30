@@ -1,1 +1,1 @@
-Please download [FewRel](https://github.com/thunlp/FewRel/tree/master/data) here and run the python script, then copy the **test.txt** from [nyt10](../nyt10/) to here as **dev.txt**.
+Please download <u>[FewRel](https://github.com/thunlp/FewRel/tree/master/data)</u> here and run the python script, then copy the `test.txt` from <u>[nyt10](../nyt10/)</u> to here as the `dev.txt`.

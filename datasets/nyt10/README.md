@@ -1,1 +1,1 @@
-Please download [NYT10](https://github.com/gzmason/Relation-Extraction-Dataset-Finetuning/blob/main/OpenNRE/benchmark/download_nyt10m.sh) here and run the python script, then copy the **train.txt** and **dev.txt** from [fewrel](../fewrel/) to here.
+Please download <u>[NYT10](https://github.com/gzmason/Relation-Extraction-Dataset-Finetuning/blob/main/OpenNRE/benchmark/download_nyt10m.sh)</u> here and run the python script, then copy the `train.txt` and `dev.txt` from <u>[fewrel](../fewrel/)</u> to here.
