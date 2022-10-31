@@ -6,3 +6,4 @@ datasets/fewrel/*.txt
 datasets/fewrel/*.json
 datasets/fewrel_star/*.txt
 datasets/fewrel_star/*.json
+__pycache__/*
