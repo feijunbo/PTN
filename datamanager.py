@@ -348,13 +348,13 @@ class DataManager:
     def __init__(self, tokenizer, N, K, dataset='fewrel', na_prob=0.0):
         self.data = {}
         if dataset != 'webnlg':
-            self.data['train'] = FewRelDataset('./'+dataset+'/train.txt', tokenizer, N, K, na_prob)
-            self.data['dev'] = FewRelDataset('./'+dataset+'/dev.txt', tokenizer, N, K, na_prob)
-            self.data['test'] = FewRelDataset('./'+dataset+'/test.txt', tokenizer, N, K, na_prob)
+            self.data['train'] = FewRelDataset('./datasets/'+dataset+'/train.txt', tokenizer, N, K, na_prob)
+            self.data['dev'] = FewRelDataset('./datasets/'+dataset+'/dev.txt', tokenizer, N, K, na_prob)
+            self.data['test'] = FewRelDataset('./datasets/'+dataset+'/test.txt', tokenizer, N, K, na_prob)
         else:
-            self.data['train'] = FewRelDataset('./'+dataset+'/train.txt', tokenizer, N, K, na_prob)
-            self.data['dev'] = WebnlgDataset('./'+dataset+'/dev.txt', tokenizer, N, K, na_prob)
-            self.data['test'] = WebnlgDataset('./'+dataset+'/test.txt', tokenizer, N, K, na_prob)
+            self.data['train'] = FewRelDataset('./datasets/'+dataset+'/train.txt', tokenizer, N, K, na_prob)
+            self.data['dev'] = WebnlgDataset('./datasets/'+dataset+'/dev.txt', tokenizer, N, K, na_prob)
+            self.data['test'] = WebnlgDataset('./datasets/'+dataset+'/test.txt', tokenizer, N, K, na_prob)
 
 
 def getraw(raw_tokens, head, tail, tokenizer):
