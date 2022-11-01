@@ -183,14 +183,14 @@ def train(dataID, model, datas, mode, dataQueue, resultQueue, freeProcess, lock,
             pass
 
     lock.release()
-    if dataID > 0 and dataID % 20 == 0:
-        print('=========',dataID,'=========')
-        print('loss    :', loss / numprocess)
-        print('joint   :', acc, cnt, tot)
-        print('new     :', new_acc, new_cnt, new_tot)
-        print('post    :', post_acc, post_cnt, post_tot)
-        print('relation:', rel_acc, rel_cnt, rel_tot)
-        print('entity  :', ent_acc, ent_cnt, ent_tot)
+    # if dataID > 0 and dataID % 200 == 0:
+    #     print('=========',dataID,'=========')
+    #     print('loss    :', loss / numprocess)
+        # print('joint   :', acc, cnt, tot)
+        # print('new     :', new_acc, new_cnt, new_tot)
+        # print('post    :', post_acc, post_cnt, post_tot)
+        # print('relation:', rel_acc, rel_cnt, rel_tot)
+        # print('entity  :', ent_acc, ent_cnt, ent_tot)
 
     return (acc, cnt, tot, rel_acc, rel_cnt, rel_tot, ent_acc, ent_cnt, ent_tot, post_acc, post_tot, post_cnt, new_acc, new_cnt, new_tot, error_statictis, error_details)
 
@@ -198,5 +198,5 @@ def test(dataID, model, datas, mode, dataQueue, resultQueue, freeProcess, lock, 
     testmode = mode + ["test"]
     if dataID < -2:
         print(testmode)
-    return train(-dataID-1, model, datas, 1, testmode, dataQueue, resultQueue, freeProcess, lock, numprocess)
+    return train(-dataID-1, model, datas, testmode, dataQueue, resultQueue, freeProcess, lock, numprocess)
 

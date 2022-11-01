@@ -60,17 +60,17 @@ def work(mode, train_data, test_data, dev_data, model, args, epoch, best=0):
             ent_acc += ent_acc_
             ent_cnt += ent_cnt_ 
             ent_tot += ent_tot_
-            trainF1 = calcF1(acc, cnt, tot)
-            trainnF1 = calcF1(new_acc, new_cnt, new_tot)
-            trainpF1 = calcF1(post_acc, post_cnt, post_tot)
-            trainRelF1 = calcF1(rel_acc, rel_cnt, rel_tot)
-            trainEntF1 = calcF1(ent_acc, ent_cnt, ent_tot)
-            if (b + 1) % args.print_per_batch == 0:
-                print("    batch ", b, ": F1:", trainF1, ", new F1:", trainnF1, ", post F1:", trainpF1, ", Rel F1:", trainRelF1, ", Ent F1:", trainEntF1, "    time:", (time.time()-start))
-                acc, cnt, tot = 0, 0, 0
-                rel_acc, rel_cnt, rel_tot = 0, 0, 0
-                ent_acc, ent_cnt, ent_tot = 0, 0, 0
-                start = time.time()
+            # trainF1 = calcF1(acc, cnt, tot)
+            # trainnF1 = calcF1(new_acc, new_cnt, new_tot)
+            # trainpF1 = calcF1(post_acc, post_cnt, post_tot)
+            # trainRelF1 = calcF1(rel_acc, rel_cnt, rel_tot)
+            # trainEntF1 = calcF1(ent_acc, ent_cnt, ent_tot)
+            # if (b + 1) % args.print_per_batch == 0:
+                # print("    batch ", b, ": F1:", trainF1, ", new F1:", trainnF1, ", post F1:", trainpF1, ", Rel F1:", trainRelF1, ", Ent F1:", trainEntF1, "    time:", (time.time()-start))
+                # acc, cnt, tot = 0, 0, 0
+                # rel_acc, rel_cnt, rel_tot = 0, 0, 0
+                # ent_acc, ent_cnt, ent_tot = 0, 0, 0
+                # start = time.time()
         model.eval()
         if args.debug:
             batchcnt = 200
@@ -268,8 +268,8 @@ if __name__ == "__main__":
         mp.set_start_method('spawn')
     except RuntimeError:
         pass
-    for name, param in model.named_parameters():
-        print (name, param.size(), param.get_device())
+    # for name, param in model.named_parameters():
+    #     print (name, param.size(), param.get_device())
     
     processes = []
     dataQueue = mp.Queue()
